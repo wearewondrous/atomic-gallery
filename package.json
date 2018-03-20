@@ -5,7 +5,7 @@
   "repository": "git@github.com:WondrousLLC/atomic-gallery.git",
   "author": "Anton Staroverov (anton@wondrous.ch)",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "blueimp-gallery": "^2.32.0"
   }
 }
