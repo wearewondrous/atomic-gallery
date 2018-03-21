@@ -1,3 +1,26 @@
 title: Atomic Gallery
 status: 'wip'
 preview: '@preview'
+context:
+  gallery:
+    items:
+      - title: 'Banana'
+        href: 'https://placehold.it/600x400'
+        thumbnail: 'https://placehold.it/300x200'
+        type: 'image/jpeg'
+      - title: 'Apple'
+        href: 'https://placehold.it/600x400'
+        thumbnail: 'https://placehold.it/300x200'
+        type: 'image/jpeg'
+      - title: 'A YouYube video'
+        href: 'https://www.youtube.com/watch?v=zi4CIXpx7Bg'
+        thumbnail: 'https://img.youtube.com/vi/zi4CIXpx7Bg/maxresdefault.jpg'
+        type: 'text/html'
+        youtube: 'zi4CIXpx7Bg'
+        poster: 'https://img.youtube.com/vi/zi4CIXpx7Bg/maxresdefault.jpg'
+      - title: 'A Vimeo video'
+        href: 'https://vimeo.com/73686146'
+        thumbnail: 'https://i.vimeocdn.com/video/448835699.jpg'
+        type: 'text/html'
+        vimeo: '73686146'
+        poster: 'https://i.vimeocdn.com/video/448835699.jpg'

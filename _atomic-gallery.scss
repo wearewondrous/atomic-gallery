@@ -1,0 +1,11 @@
+@import "blueimp-gallery/css/blueimp-gallery.min";
+
+.blueimp-gallery > .slides > .slide > .video-content > a {
+  background: none;
+
+  &::before {
+    content: "►";
+    font-size: 300%;
+    color: white;
+  }
+}

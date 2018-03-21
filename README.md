@@ -7,11 +7,10 @@ Atomic Video/Image Gallery based on https://github.com/blueimp/Gallery.
 
 Include .css:
 ```
-@import "blueimp-gallery/css/blueimp-gallery";
+@import "atomic-gallery/atomic-gallery";
 ```
 
 Include .js:
 ```
-//=include blueimp-gallery/js/blueimp-gallery.js
-//=include atomic-gallery/atomic-gallery.init.js
+//=include atomic-gallery/atomic-gallery.js
 ```
