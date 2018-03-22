@@ -9,3 +9,15 @@
     color: white;
   }
 }
+
+.gallery-thumbs-grid {
+  display: flex;
+
+  a {
+    margin-right: 1rem;
+  }
+
+  img {
+    height: 10rem;
+  }
+}
