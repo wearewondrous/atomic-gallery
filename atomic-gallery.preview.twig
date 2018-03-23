@@ -1,0 +1,7 @@
+<a href="{{ item.href }}" title="{{ item.title }}" type="{{ item.type }}" data-poster="{{ item.poster }}" data-youtube="{{ item.youtube }}" data-vimeo="{{ item.vimeo }}" data-gallery>
+  {% if item.preview %}
+    {{ item.preview }}
+  {% else %}
+    <img src="{{ item.thumbnail }}" alt="{{ item.title }}"/>
+  {% endif %}
+</a>

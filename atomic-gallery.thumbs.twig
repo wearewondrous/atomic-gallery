@@ -1,6 +1,0 @@
-<!-- Gallery Thumbnails -->
-{% for item in gallery.items %}
-  <a href="{{ item.href }}" title="{{ item.title }}" type="{{ item.type }}" data-poster="{{ item.poster }}" data-youtube="{{ item.youtube }}" data-vimeo="{{ item.vimeo }}" data-gallery>
-    <img src="{{ item.thumbnail }}" alt="{{ item.title }}"/>
-  </a>
-{% endfor %}
