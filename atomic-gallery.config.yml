@@ -5,12 +5,12 @@ context:
   gallery:
     items:
       - title: 'Banana'
-        href: 'https://placehold.it/600x400'
-        thumbnail: 'https://placehold.it/300x200'
+        href: 'https://placehold.it/640x360'
+        thumbnail: 'https://placehold.it/320x180'
         type: 'image/jpeg'
       - title: 'Apple'
-        href: 'https://placehold.it/600x400'
-        thumbnail: 'https://placehold.it/300x200'
+        href: 'https://placehold.it/640x360'
+        thumbnail: 'https://placehold.it/320x180'
         type: 'image/jpeg'
       - title: 'A YouYube video'
         href: 'https://www.youtube.com/watch?v=zi4CIXpx7Bg'
