@@ -1,8 +1,18 @@
-<!-- Gallery 1 -->
-{% include '@components/00-lib/atomic-gallery/atomic-gallery.previews-grid.twig' %}
+<h2>Gallery 1</h2>
+<ul data-gallery-group>
+  {% for item in gallery.items %}
+  {% set item = item|merge({ 'preview': item.title }) %}
+  <li>{% include '@components/00-lib/atomic-gallery/atomic-gallery.preview.twig' %}</li>
+  {% endfor %}
+</ul>
 
-<!-- Gallery 2 -->
-{% include '@components/00-lib/atomic-gallery/atomic-gallery.previews-grid.twig' %}
+<h2>Gallery 2</h2>
+<ul data-gallery-group>
+  {% for item in gallery.items|reverse %}
+  {% set item = item|merge({ 'preview': item.title }) %}
+  <li>{% include '@components/00-lib/atomic-gallery/atomic-gallery.preview.twig' %}</li>
+  {% endfor %}
+</ul>
 
 <!-- Shared Lightbox -->
 {% include '@components/00-lib/atomic-gallery/atomic-gallery.lightbox.twig' %}
