@@ -1,4 +1,4 @@
-<a href="{{ item.href|e('html_attr') }}" title="{{ item.title }}" type="{{ item.type }}" data-poster="{{ item.poster }}" data-youtube="{{ item.youtube }}" data-vimeo="{{ item.vimeo }}" data-gallery>
+<a href="{{ item.href|raw }}" title="{{ item.title }}" type="{{ item.type }}" data-poster="{{ item.poster }}" data-youtube="{{ item.youtube }}" data-vimeo="{{ item.vimeo }}" data-gallery>
   {% if item.preview %}
     {{ item.preview }}
   {% else %}
