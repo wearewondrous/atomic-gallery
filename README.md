@@ -1,4 +1,6 @@
-# Atomic Gallery
+# Deprecated
+
+Atomic Gallery
 
 Atomic Video/Image Gallery based on https://github.com/blueimp/Gallery.
 
